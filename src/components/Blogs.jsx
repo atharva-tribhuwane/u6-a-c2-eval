@@ -12,7 +12,7 @@ export const Blogs = ()=>{
         }
 
         getData();
-    })
+    },[])
     return(
         data.map((ele)=>{
             return(
